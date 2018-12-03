@@ -1,0 +1,7 @@
+export const TITRE_RESUME = "Accueil"
+export const TITRE_EXP = "Experiences"
+export const TITRE_SKILL = "Compétences"
+export const TITRE_LANG = "Loisires et Langues"
+export const TITRE_FORMATION = "Formations"
+export const TITRE_CONTACT = "Contact"
+export const TEST = "Test"
