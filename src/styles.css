@@ -1,10 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 .bg-image {
-    /* Full height */
-    height: 100vh; 
-  
-    /* Center and scale the image nicely */
+
+    padding-top:80px;
+    padding-bottom:80px;
+    min-height:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  
+  body,html{
+    height: 100%;
   }

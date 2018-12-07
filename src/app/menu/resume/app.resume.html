@@ -1,3 +1,31 @@
 <div class="bg-image img4">
-    <h1>Accueil</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 card">
+                <img class="card-img-top" src="../../../assets/img/pp.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{const_text_fr.P_2}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{const_text_fr.P_5}}</h6>
+                    <p class="card-text">{{const_text_fr.P_6}}</p>
+                    <div class="icon-bar">
+                        <div class="bage">
+                            <a [href]="const_variables.LINK_GITHUB" class="github"><i class="fa fa-2x fa-github"></i></a>
+                        </div>
+                        <div class="bage">
+                            <a [href]="const_variables.LINK_IN" class="linkedin"><i class="fa fa-2x fa-linkedin"></i></a>
+                        </div>
+                        <div class="bage">
+                            <a [href]="const_variables.LINK_FACEBOOK" class="facebook align-middle"><i class="fa fa-2x fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md jumbotron  ">
+                <h1 class="display-4">{{const_text_fr.TITRE_RESUME_1}}</h1>
+                <p>{{const_text_fr.P_1}} {{const_text_fr.P_2}} {{const_text_fr.P_3}}</p>
+                <hr>
+                <p>{{const_text_fr.P_4}}</p>
+            </div>
+        </div>
+    </div>
 </div>

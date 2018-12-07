@@ -1,34 +1,37 @@
-<!--Bar de navigation -->
-<nav class="navbar  navbar-expand-lg navbar-light fixed-top bg-light" >
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class=" navbar-nav justify-content-center" >
-      <li class="nav-item active">
-        <a class="nav-link" href="#resume">{{const_text_fr.TITRE_RESUME}}<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skill">{{const_text_fr.TITRE_SKILL}}</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#exp">{{const_text_fr.TITRE_EXP}}</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#formation">{{const_text_fr.TITRE_FORMATION}}</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#lang">{{const_text_fr.TITRE_LANG}}</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">{{const_text_fr.TITRE_CONTACT}}</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-<app-resume id="resume"></app-resume>
-<app-skill id="skill"></app-skill>
-<app-exp id="exp"></app-exp>
-<app-formation id="formation"></app-formation>
-<app-lang id="lang"></app-lang>
-<app-contact id="contact"></app-contact>
+<body class="test" data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+  <!--Bar de navigation -->
+  <ul class="nav navbar navbar-expand-lg  justify-content-center fixed-top bg-light" id="menu">
 
-<div class="bg-text">{{const_text_fr.TEST}}</div>
+    <li class="nav-item " (click)="toggleActive($event,'#link_resume')">
+      <a class="nav-link active js-scroll-trigger" href="#resume" id="link_resume">{{const_text_fr.TITRE_RESUME}}<span
+          class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item" (click)="toggleActive($event,'#link_skill')">
+      <a class="nav-link js-scroll-trigger" href="#skill" id="link_skill">{{const_text_fr.TITRE_SKILL}}</a>
+    </li>
+    <li class="nav-item" (click)="toggleActive($event,'#link_exp')">
+      <a class="nav-link" href="#exp" id="link_exp">{{const_text_fr.TITRE_EXP}}</a>
+    </li>
+    <li class="nav-item" (click)="toggleActive($event,'#link_formation')">
+      <a class="nav-link" href="#formation" id="link_formation">{{const_text_fr.TITRE_FORMATION}}</a>
+    </li>
+    <li class="nav-item" (click)="toggleActive($event,'#link_lang')">
+      <a class="nav-link" href="#lang" id="link_lang">{{const_text_fr.TITRE_LANG}}</a>
+    </li>
+    <li class="nav-item" (click)="toggleActive($event,'#link_contact')">
+      <a class="nav-link" href="#contact" id="link_contact">{{const_text_fr.TITRE_CONTACT}}</a>
+    </li>
+
+  </ul>
+
+
+  <app-resume id="resume"></app-resume>
+  <app-skill id="skill"></app-skill>
+  <app-exp id="exp"></app-exp>
+  <app-formation id="formation"></app-formation>
+  <app-lang id="lang"></app-lang>
+  <app-contact id="contact"></app-contact>
+  <button (click)="topFunction()" id="Go_top" title="Go to top">Top</button>
+</body>
