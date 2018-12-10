@@ -13,3 +13,4 @@ export const TITRE_FORMATION = "Formations"
 export const TITRE_CONTACT = "Contact"
 export const TEST = "Test"
 export const TTTRE = 'Cv NOUGLOZEH Gerard'
+export const TTTRE_Legende = 'Légende'

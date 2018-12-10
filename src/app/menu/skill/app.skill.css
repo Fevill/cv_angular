@@ -1,1 +1,16 @@
 .img5 { background-image: url("../../../assets/img/img_forest.jpg"); }
+
+.leg-list{
+ float: left;
+}
+.card-leg{
+    padding: -10px;
+    background-color: transparent;
+}
+.card-title{
+    text-align: center;
+}
+
+.item{
+    padding: 10px;
+}

@@ -1,4 +1,22 @@
 <div class="bg-image img5">
-    <h1>Skill</h1>
-    <button (click)="test()">Boutton</button>
+    <div class="container-fluid">
+            <div class="container">
+                    <div class="card" *ngFor="let item of this.legendListe">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">{{item.nom}}</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+        <div class="card card-leg">
+            
+            <div class="card-body">
+                <h5 class="card-title">{{service.const_text_fr.TTTRE_Legende}}</h5>
+                <div class="card-subtitle mb-2 text-muted" *ngFor="let item of this.legendListe" class="leg-list">
+                    <span class="item"> <span> {{item.num}} - {{item.nom}} </span><span *ngIf="item.desc">- {{item.desc}}</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

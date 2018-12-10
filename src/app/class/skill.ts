@@ -64,7 +64,7 @@ class Competence_Ligne {
 
 
 /** Bloc de compétences */
-class Competence_Bloc {
+export class Competence_Bloc {
 
     //Déclarion des Variables
     private titre: string;

@@ -1,28 +1,27 @@
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Legende } from '../../class/skill';
+import { Component, OnInit } from '@angular/core';
+import { Legende, Competence_Bloc } from '../../class/skill';
+import { Service } from 'src/app/service/service';
 
 @Component({
   selector: 'app-skill',
   templateUrl: './app.skill.html',
   styleUrls: ['./app.skill.css']
 })
-export class Skill {
+export class Skill implements OnInit {
 
   private legendListe: Legende[] = [];
   private competenceBlocListe: Competence_Bloc[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private service: Service) { }
 
-  test() {
-    this.http.get("./assets/data/skill_text.json").subscribe((data: any) => {
-   
-      for (let element of data.Legende) {
-        this.legendListe.push(new Legende(element.num, element.nom, element.desc))
-      }
-      this.competenceBlocListe = data.skill
-      console.log(this.legendListe)
-      console.log(this.legendListe[1].getNom())
-    });
+  /** Recuperer la legende */
+  legend(): void {
+    this.service.GetLegend().then((res: any) => {
+      this.legendListe = res
+    })
+  }
+
+  ngOnInit() {
+    this.legend()
   }
 }

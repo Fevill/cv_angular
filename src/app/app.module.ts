@@ -10,6 +10,9 @@ import { Lang } from './menu/lang/app.lang';
 import { Resume } from './menu/resume/app.resume';
 import { Contact } from './menu/Contact/app.contact';
 
+
+import { Service } from './service/service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,7 @@ import { Contact } from './menu/Contact/app.contact';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
