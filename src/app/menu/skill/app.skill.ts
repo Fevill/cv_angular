@@ -14,14 +14,18 @@ export class Skill implements OnInit {
 
   constructor(private service: Service) { }
 
-  /** Recuperer la legende */
-  legend(): void {
+  /** Recuperer les info */
+  info(): void {
     this.service.GetLegend().then((res: any) => {
       this.legendListe = res
+    })
+    this.service.GetSkill().then((res: any) => {
+      this.competenceBlocListe = res
+      console.log(this.competenceBlocListe[0])
     })
   }
 
   ngOnInit() {
-    this.legend()
+    this.info()
   }
 }

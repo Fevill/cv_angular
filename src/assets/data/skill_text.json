@@ -22,66 +22,8 @@
                 {
                     "nom": "JAVA",
                     "niveau": "4"
-                },
-                {
-                    "nom": "C#",
-                    "niveau": "4"
-                },
-                {
-                    "nom": "SQL",
-                    "niveau": "4"
-                },
-                {
-                    "nom": "Assembleur",
-                    "niveau": "4"
-                },
-                {
-                    "nom": "LESS",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "Python",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "PHP",
-                    "niveau": "2"
                 }
-            ]
-        },
-        {
-            "titre": "Basse de données",
-            "comp_L": [
-                {
-                    "nom": "Oracle 12.c",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "SQL Serveur",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "Access DB",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "MySQL",
-                    "niveau": "3"
-                }
-            ]
-        },
-        {
-            "titre": "Master data managements",
-            "comp_L": [
-                {
-                    "nom": "MDM TIBCO",
-                    "niveau": "2"
-                },
-                {
-                    "nom": "MDM Informatica",
-                    "niveau": "2"
-                }
-
+                  
             ]
         },
         {
@@ -111,61 +53,8 @@
                 }
             ]
         },
-        {
-            "titre": "Environnement de développement",
-            "comp_L": [
-                {
-                    "nom": "Visual studio code",
-                    "niveau": "5"
-                },
-                {
-                    "nom": "Eclipse",
-                    "niveau": "4"
-                },
-                {
-                    "nom": "Visual studio",
-                    "niveau": "4"
-                },
-                {
-                    "nom": "Net Beans",
-                    "niveau": "3"
-                },
-                {
-                    "nom": "Thonny",
-                    "niveau": "2"
-                }
-            ]
-        },
-        {
-            "titre": "Framework",
-            "comp_L": [
-                {
-                    "nom": "Angular 7",
-                    "niveau": "5"
-                },
-                {
-                    "nom": "Bootstrap 4",
-                    "niveau": "5"
-                },
-                {
-                    "nom": "WPF / Xaml",
-                    "niveau": "4"
-                }
-            ]
-        },
-        {
-            "titre": "Gestionnaire de code source",
-            "comp_L": [
-                {
-                    "nom": "Git",
-                    "niveau": "5"
-                },
-                {
-                    "nom": "Svn",
-                    "niveau": "3"
-                }
-            ]
-        },
+       
+      
         {
             "titre": "API",
             "comp_L": [
@@ -199,21 +88,6 @@
             "num": 2,
             "nom": "Connaissance",
             "desc": "(Déja mise en pratique)"
-        },
-        {
-            "num": 3,
-            "nom": "Conaissance plus",
-            "desc": "(Déja mise en pratique pendant une durée supérieur à une année)"
-        },
-        {
-            "num": 4,
-            "nom": "Maîtrise",
-            "desc": "(Déja mise en pratique dans un projet)"
-        },
-        {
-            "num": 5,
-            "nom": "Expert",
-            "desc": "(Très à l'aise sur la compétence)"
         }
     ]
 }

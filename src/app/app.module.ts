@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import {MatListModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { Skill } from './menu/skill/app.skill';
@@ -25,7 +26,8 @@ import { Service } from './service/service';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    MatListModule
   ],
   providers: [Service],
   bootstrap: [AppComponent]

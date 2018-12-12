@@ -34,7 +34,7 @@ export class Legende {
 }
 
 /** Une ligne de compétances */
-class Competence_Ligne {
+export class Competence_Ligne {
 
     //Déclarion des Variables
     private nom: string;
@@ -49,8 +49,8 @@ class Competence_Ligne {
     }
 
     //les constructeurs
-    constructor();
-    constructor(nom?: string, niveau?: number) {
+    public constructor();
+    public constructor(nom?: string, niveau?: number) {
         nom === null ? this.nom = "" : this.nom = nom
         niveau === null ? this.niveau = 0 : this.niveau = niveau
     }
