@@ -1,6 +1,0 @@
-export const TAG_A = "a"
-export const C_ACTIVE = "active"
-export const TAG_RM = "a.nav-link.active"
-export const LINK_FACEBOOK = "https://www.facebook.com/Fevilh"
-export const LINK_IN = "https://www.linkedin.com/in/gerard-nouglozeh-34a75a88/"
-export const LINK_GITHUB = "https://github.com/Fevill"
