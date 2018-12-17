@@ -1,0 +1,148 @@
+{
+    "CodePostal": "Toulouse",
+    "Contenu": {
+        "Competences": [
+            {
+                "Categorie": "Langage de programmation",
+                "CompetenceListe": [
+                    "JAVA",
+                    "PHP",
+                    "C#"
+                ]
+            },
+            {
+                "Categorie": "Web",
+                "CompetenceListe": [
+                    "HTML5",
+                    "Css",
+                    "Less",
+                    "Jquery",
+                    "Ajax",
+                    "BootStrap",
+                    "Json",
+                    "XML"
+                ]
+            },
+            {
+                "Categorie": "Web services",
+                "CompetenceListe": [
+                    "SOAP",
+                    "Rest"
+                ]
+            },
+            {
+                "Categorie": "Technologie",
+                "CompetenceListe": [
+                    "J2EE",
+                    "Spring",
+                    "Ionic2"
+                ]
+            },
+            {
+                "Categorie": "Base de donnees",
+                "CompetenceListe": [
+                    "Oracle",
+                    "MySql",
+                    "SqlServeur"
+                ]
+            },
+            {
+                "Categorie": "Environnement de developpement",
+                "CompetenceListe": [
+                    "Eclipse",
+                    "Netbeans",
+                    "Visual Studio"
+                ]
+            },
+            {
+                "Categorie": "Système d’exploitation",
+                "CompetenceListe": [
+                    "Linux",
+                    "Windows"
+                ]
+            }
+        ],
+        "Experiences": [
+            {
+                "Duree": "8 mois",
+                "Dèscriptions": " A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
+                "Periode": "09/2015 - 05/2016",
+                "Sujet": "Developpement client lourd C# (WPF), SQL Serveur"
+            },
+            {
+                "Duree": "2 mois",
+                "Dèscriptions": " Programmation en C du microcontrôleur microchips pic 32 sous l’environnement mplab et etude du protocole Ethernet.",
+                "Periode": "01/2014 - 03/2014",
+                "Sujet": "Mini serveur web à base de l’Ethernet"
+            },
+            {
+                "Duree": "3 mois",
+                "Dèscriptions": " Developpement d’un jeu à 2 dimensions avec Java Swing. Utilisations des threads pour gerer les differences phases de lancement du jeu.",
+                "Periode": "02/2013 - 05/2013",
+                "Sujet": "Developpement d’un Jeu d’arcade en Java(Swing)"
+            }
+        ],
+        "Formations": [
+            {
+                "Annee": "2016 - 2017",
+                "Formation": "Competences complementaires en informatique",
+                "NiveauScolaire": "MASTER",
+                "Pays": "France",
+                "Universite": "Universite Lyon 1"
+            },
+            {
+                "Annee": "2013 - 2016",
+                "Formation": "Electronique Informatique Industrielle et Instrumentation",
+                "NiveauScolaire": "MASTER PROFESSIONNEL",
+                "Pays": "France",
+                "Universite": "Universite Lyon 1"
+            },
+            {
+                "Annee": "2012 - 2013",
+                "Formation": "Techniques des Systèmes Electroniques et Informatiques",
+                "NiveauScolaire": "LICENCE PROFESSIONNELLE",
+                "Pays": "France",
+                "Universite": "la faculte des sciences Dhar Mahraz de Fès"
+            },
+            {
+                "Annee": "2010 - 2012",
+                "Formation": "Electronique Informatique Industrielle",
+                "NiveauScolaire": "DUT",
+                "Pays": "France",
+                "Universite": "la faculte des sciences Dhar Mahraz de Fès"
+            }
+        ],
+        "LanguesEtLoisir": {
+            "Langues": [
+                {
+                    "Lang-Niveau": "Maternelle",
+                    "Lang-Nom": "Ewe"
+                },
+                {
+                    "Lang-Niveau": "Courant",
+                    "Lang-Nom": "Francais"
+                },
+                {
+                    "Lang-Niveau": "intermediaire",
+                    "Lang-Nom": "Anglais"
+                }
+            ],
+            "Loisir": [
+                "Montage Video",
+                "ESport (League of legends)"
+            ]
+        },
+        "Post": "developpeur Full Stack",
+        "Resumer": "Bonjour je suis NOUGLOZEH Gerard developpeur full stack"
+    },
+    "Copyright": "Copyright © 2018 Nouglozeh Gerard",
+    "EnRecherche": "Non",
+    "Github": "https://github.com/Fevill",
+    "Linkedin": "https://www.linkedin.com/in/gerard-nouglozeh-34a75a88/",
+    "Nom": "NOUGLOZEH",
+    "Mail": "nouglozeh_gerard@yahoo.fr",
+    "PageTitre": "N.GErard Cv",
+    "Pays": "France",
+    "Prenom": "Gerard",
+    "Telephone": "06 50 47 81 79"
+}

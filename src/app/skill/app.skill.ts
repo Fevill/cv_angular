@@ -1,20 +1,20 @@
 import { Component } from '@angular/core';
-import { CvService } from './service/service';
+import { HttpClient } from '@angular/common/http';
+import { CvService } from '../service/service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-skill',
+  templateUrl: './app.skill.html',
+  styleUrls: ['./app.skill.css']
 })
-export class AppComponent {
-  title = 'cv';
+export class Skill {
+
   public CvData: any;
   constructor(private service: CvService) {
     service.GetData().then(res => {
       this.CvData = res
       console.log(this.CvData);
     })
-    
-  }
 
+  }
 }

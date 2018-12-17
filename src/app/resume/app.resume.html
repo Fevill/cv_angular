@@ -1,0 +1,26 @@
+<div class="bg-image img4">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top rounded img-pp" src="../../assets/img/pp.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body" *ngIf="this.CvData">
+                        <h4 class="card-title" >{{this.CvData.Nom}} {{this.CvData.Prenom}}</h4>
+                        <h5 class="card-text ">{{this.CvData.CodePostal}}, {{this.CvData.Pays}}</h5>
+                        <p class="card-text">Mail : {{this.CvData.Mail}}</p>
+                        <p class="card-text">Téléphone : {{this.CvData.Telephone}}</p>
+                        <p class="card-text">Poste : {{this.CvData.Contenu.Post}}</p>
+                        <a [href]="this.CvData.Github" class="fa fa-github"></a>
+                        <a [href]="this.CvData.Linkedin" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h3>Résumé</h3>
+                <hr>
+                <p *ngIf="this.CvData">{{this.CvData.Contenu.Resumer}}</p>
+            </div>
+        </div>
+    </div>
+</div>
