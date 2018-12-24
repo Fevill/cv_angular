@@ -1,0 +1,24 @@
+<div class="bg-image ">
+    <div class="container">
+        <h1 >Mes formations</h1>
+        <ul class="timeline"  *ngIf="this.CvData">
+            <li *ngFor="let F of this.CvData.Contenu.Formations">
+                <div class="timeline-badge">
+                    <i>{{F.Annee_obtention}}</i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">{{F.NiveauScolaire}}</h4>
+                        <h5>{{F.Formation}}</h5>
+                    </div>
+                    <div class="timeline-body">
+                        <p>{{F.Universite}}</p>
+                    </div>
+                    <p class="float right">
+                        <small class="text-muted">{{F.Pays}},{{F.Annee}}</small>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
