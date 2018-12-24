@@ -65,19 +65,19 @@
         "Experiences": [
             {
                 "Duree": "8 mois",
-                "Dèscriptions": " A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
+                "Descriptions": " A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
                 "Periode": "09/2015 - 05/2016",
                 "Sujet": "Developpement client lourd C# (WPF), SQL Serveur"
             },
             {
                 "Duree": "2 mois",
-                "Dèscriptions": " Programmation en C du microcontrôleur microchips pic 32 sous l’environnement mplab et etude du protocole Ethernet.",
+                "Descriptions": " Programmation en C du microcontrôleur microchips pic 32 sous l’environnement mplab et etude du protocole Ethernet.",
                 "Periode": "01/2014 - 03/2014",
                 "Sujet": "Mini serveur web à base de l’Ethernet"
             },
             {
                 "Duree": "3 mois",
-                "Dèscriptions": " Developpement d’un jeu à 2 dimensions avec Java Swing. Utilisations des threads pour gerer les differences phases de lancement du jeu.",
+                "Descriptions": " Developpement d’un jeu à 2 dimensions avec Java Swing. Utilisations des threads pour gerer les differences phases de lancement du jeu.",
                 "Periode": "02/2013 - 05/2013",
                 "Sujet": "Developpement d’un Jeu d’arcade en Java(Swing)"
             }

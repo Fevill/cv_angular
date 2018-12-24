@@ -13,7 +13,6 @@ export class Skill {
   constructor(private service: CvService) {
     service.GetData().then(res => {
       this.CvData = res
-      console.log(this.CvData);
     })
 
   }

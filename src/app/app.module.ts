@@ -6,14 +6,16 @@ import {CvService} from './service/service';
 
 
 import { AppComponent } from './app.component';
+import { Experience } from './exp/app.exp';
 import { Resume } from './resume/app.resume';
 import { Skill } from './skill/app.skill';
 
 @NgModule({
   declarations: [
     AppComponent,
+    Experience,
     Resume,
-    Skill
+    Skill,
   ],
   imports: [
     BrowserModule,

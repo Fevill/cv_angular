@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { CvService } from '../service/service';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './app.resume.html',
-  styleUrls: ['./app.resume.css']
+  selector: 'app-exp',
+  templateUrl: './app.exp.html',
+  styleUrls: ['./app.exp.css']
 })
-export class Resume {
+export class Experience {
 
   public CvData: any;
   constructor(private service: CvService) {
