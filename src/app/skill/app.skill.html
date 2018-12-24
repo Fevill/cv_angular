@@ -1,0 +1,19 @@
+<div class="bg-image img5">
+
+    <div class="container">
+        <h2>Mes compétences</h2>
+        <div class="row" *ngIf="this.CvData">
+            <div *ngFor="let C of this.CvData.Contenu.Competences" class="card-contente">
+                <div class="card col-md-10">
+                    <div class="card-body">
+                        <h5 class="card-title">{{C.Categorie}}</h5>
+                        <div>
+                            <p *ngFor="let CL of C.CompetenceListe" class="card-text">{{CL}}</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
