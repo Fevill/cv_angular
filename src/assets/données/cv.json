@@ -119,19 +119,19 @@
         "LanguesEtLoisir": {
             "Langues": [
                 {
-                    "Lang-Niveau": "Maternelle",
-                    "Lang-Nom": "Ewe"
+                    "Lang_Niveau": "Maternelle",
+                    "Lang_Nom": "Ewe"
                 },
                 {
-                    "Lang-Niveau": "Courant",
-                    "Lang-Nom": "Francais"
+                    "Lang_Niveau": "Courant",
+                    "Lang_Nom": "Francais"
                 },
                 {
-                    "Lang-Niveau": "intermediaire",
-                    "Lang-Nom": "Anglais"
+                    "Lang_Niveau": "intermediaire",
+                    "Lang_Nom": "Anglais"
                 }
             ],
-            "Loisir": [
+            "Loisirs": [
                 "Montage Video",
                 "ESport (League of legends)"
             ]

@@ -27,3 +27,34 @@
 <app-skill id="Compétences"></app-skill>
 <app-exp id="Expériences"></app-exp>
 <app-formation id="Formations"></app-formation>
+<app-langloisir id="Lang-Lois"></app-langloisir>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+
+    <div class="row">
+
+      <div class="col-md-12 text-center">
+        <h5 class="text-uppercase">Pages</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#Resumé">Résumé</a>
+          </li>
+          <li>
+            <a href="#Compétences">Compétences</a>
+          </li>
+          <li>
+            <a href="#Expériences">Expériences professionnelles</a>
+          </li>
+          <li>
+            <a href="#Formations">Formations</a>
+          </li>
+          <li>
+            <a href="#Lang-Lois">Langues et loisirs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3" *ngIf="this.CvData" >{{this.CvData.Copyright}}</div>
+</footer>

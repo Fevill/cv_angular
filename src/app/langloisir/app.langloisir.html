@@ -1,0 +1,29 @@
+<div class="img">
+    <div class="container">
+        <h1>Languges et Loisirs</h1>
+        <br>
+        <div class="row hidden-md-up" *ngIf="this.CvData">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">Languges</h4>
+                        <div *ngFor="let L of this.CvData.Contenu.LanguesEtLoisir.Langues">
+                            <p class="card-text">{{L.Lang_Nom}} , (niveau : {{L.Lang_Niveau}})</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">Loisirs</h4>
+                        <div *ngFor="let L of this.CvData.Contenu.LanguesEtLoisir.Loisirs">
+                            <p class="card-text">{{L}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
