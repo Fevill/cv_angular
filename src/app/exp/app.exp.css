@@ -13,15 +13,17 @@ h1{
     margin-top: 20px;
 }
 h5{
-    color: #22c0e8;
+    color: #343a40;
 }
 i{
     color: #2d3436;
 }
-
+.id{
+    background-color: rgba(255, 255, 255, 0.7)
+}
 .img { 
     margin-top: -10px;
-    background-color: #dfe6e9;
+    /*background-color: #dfe6e9;*/
 }
 
 .container{
@@ -52,7 +54,7 @@ ul.timeline > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid #343a40;
     left: 20px;
     width: 20px;
     height: 20px;

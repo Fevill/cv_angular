@@ -1,11 +1,13 @@
 .img4 { 
     margin-top: -10px;
-    background-image: url("../../assets/img/img_resume.jpg"); 
+    /*background-image: url("../../assets/img/img_resume.jpg"); */
 }
 .img-pp{
     padding: 10px;
 }
-
+.card{
+    background-color:  #343a4011;
+}
 .card-text{
     margin: 5px;
 }

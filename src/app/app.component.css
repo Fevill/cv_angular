@@ -5,3 +5,41 @@ footer{
 footer a{
     color: white !important;
 }
+
+.bg-img{
+     background-image: url("../assets/img/img_resume.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.py-3{
+    font-size: 12px;
+}
+
+#BtTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    height: 40px;
+    width: 40px;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 25px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: #343a40; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 8px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    font-weight: bold
+  }
+  
+  #BtTop:hover {
+    color: white; /* Set a background color */
+    background-color: #bcbec0; /* Text color */
+  }
+
+  .navitem{
+      color: white !important;
+  }
