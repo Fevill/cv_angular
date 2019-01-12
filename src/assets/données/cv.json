@@ -84,45 +84,55 @@
         "Experiences": [
             {
                 "Duree": "3 mois",
-                "Descriptions": "- Formation sur du Webmethods \n- TMA de projets client \n-Utilisation de Log Kibana \n-Deployement de packages sur différents IS",
+                "Descriptions": "",
+                "Liste": [
+                    {
+                        "titre": "",
+                        "contenu": "- Formation sur du Webmethods"
+                    },
+                    {
+                        "titre": "",
+                        "contenu": "- TMA de projets client"
+                    },
+                    {
+                        "titre": "",
+                        "contenu": "- Utilisation de Log Kibana"
+                    },
+                    {
+                        "titre": "",
+                        "contenu": "- Deployement de packages sur différents IS"
+                    }
+                ],
                 "Periode": "11/2018 - Aujourd'hui",
                 "Sujet": "Developpement Webmethods"
             },
             {
                 "Duree": "12 mois",
-                "Descriptions": "Ce projet a consiter à effectu '",
+                "Descriptions": "Durant ce projet j'étais dans une équipe de 5 personnes, 1 chef de projet, 2 expert MDM, 1 expert ESB. Ce projet s'est déroulé sur 6 étapes.",
+                "Liste": [
+                    {
+                        "titre": "Etape 1 – Ateliers client",
+                        "contenu": "Une première étape a consisté à effectuer des ateliers durant lesquelles le client définissait ses différents besoins. Un délai de 2 semaines nous était donné afin de proposer des maquettes sur les différentes parties du projet. "
+                    },
+                    {
+                        "titre": "Etape 2 - Définition de l'architecture",
+                        "contenu": "Une fois les spécifications fonctionnelle définit, j'ai eu à proposer une architecture de projet Angular (config,webpacke,buil,buil-prod).Une structure de la plateforme web conformément aux exigences de la spécification fonctionnelle."
+                    },
+                    {
+                        "titre": "Etape 3 - Développement",
+                        "contenu": "La troisième étape était le développement du code avec un bouchon comme données. J’ai définit diffèrent composant, class et services Angular. J’ai à utiliser des packages NPM tel que GOJS pour des représentations graphiques, Cookie-session pour gérer la sauvegarde lors de l’authentification, METRO4 permet d'utiliser les tuiles Windows(besoin du client)."
+                    },
+                    {
+                        "titre": "Etape 4 - Formations ESB  et MDM",
+                        "contenu": "Durant j’ai suivi des formations sur ESB (Entreprise Service Bus) et MDM (Master Data Management) TIBCO."
+                    },
+                    {
+                        "titre": "Etape 5 - Développement et déploiement des services",
+                        "contenu": "Durant j’ai suivi des formations sur ESB (Entreprise Service Bus) et MDM (Master Data Management) TIBCO."
+                    }
+                ],
                 "Periode": "10/2017 - 10/2018",
                 "Sujet": "Developpement d'une plateforme en Angular"
-            },
-            {
-                "Duree": "6 mois",
-                "Descriptions": "A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
-                "Periode": "03/2017 - 09/2017",
-                "Sujet": "Developpement client lourd C# (WPF), SQL Serveur"
-            },
-            {
-                "Duree": "4 mois",
-                "Descriptions": "A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
-                "Periode": "01/2016 - 04/2016",
-                "Sujet": "Developpement client lourd C# (WPF), SQL Serveur"
-            },
-            {
-                "Duree": "8 mois",
-                "Descriptions": "A.P.P.I. Analyse, conception et developpement de logiciel à integrer dans le système informatique de supervision Panorama (Codra).",
-                "Periode": "09/2015 - 05/2016",
-                "Sujet": "Developpement client lourd C# (WPF), SQL Serveur"
-            },
-            {
-                "Duree": "2 mois",
-                "Descriptions": " Programmation en C du microcontrôleur microchips pic 32 sous l’environnement mplab et etude du protocole Ethernet.",
-                "Periode": "01/2014 - 03/2014",
-                "Sujet": "Mini serveur web à base de l’Ethernet"
-            },
-            {
-                "Duree": "3 mois",
-                "Descriptions": " Developpement d’un jeu à 2 dimensions avec Java Swing. Utilisations des threads pour gerer les differences phases de lancement du jeu.",
-                "Periode": "02/2013 - 05/2013",
-                "Sujet": "Developpement d’un Jeu d’arcade en Java(Swing)"
             }
         ],
         "Formations": [
@@ -180,9 +190,9 @@
             ]
         },
         "Post": "developpeur Full Stack",
-        "Resumer": "Bonjour je suis NOUGLOZEH Gerard developpeur full stack"
+        "Resumer": "Bonjour je suis NOUGLOZEH Gerard, Titulaire d'un double diplôme en Electronique Informatique Industrielle et en Système d'Information pour la Gestion je suis actuellement développeur full stack chez Atos. Durant ma formation j’ai eu à travailler sur différents langages (Java, JavaScript, C#). Passionner par les nouvelles technologies web je me suis formé à (Angular, Express js, ESB TIBOC, Webmethods). "
     },
-    "Copyright": "Copyright © 2018 Nouglozeh Gerard - Mise à jour le 11/01/2019",
+    "Copyright": "Copyright © 2018 Nouglozeh Gerard - Mise à jour le 12/01/2019",
     "EnRecherche": "Non",
     "Github": "https://github.com/Fevill",
     "Linkedin": "https://www.linkedin.com/in/gerard-nouglozeh-34a75a88/",

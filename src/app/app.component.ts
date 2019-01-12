@@ -65,6 +65,7 @@ export class AppComponent implements OnInit {
 }*/
 
   ngOnInit() {
+    this.ActiveLi(0)
     $(window).scroll(() => {
       if (($(window)[0].scrollY) > 50) {
         $("#BtTop").css("display", "block")
@@ -74,7 +75,7 @@ export class AppComponent implements OnInit {
 
       if ($(window)[0].scrollY === $("#Resumé").position().top) {
         this.ActiveLi(0)
-      } else if ($(window)[0].scrollY >= $("#Lang-Lois").position().top - 80) {
+      } else if ($(window)[0].scrollY >= $("#Lang-Lois").position().top - 300) {
         this.ActiveLi(4)
       } else if ($(window)[0].scrollY >= $("#Formations").position().top - 50) {
         this.ActiveLi(3)
@@ -88,6 +89,6 @@ export class AppComponent implements OnInit {
 
   ActiveLi(element) {
     $(".nav-item a").removeClass("navitem")
-    console.log($(".nav-item a:eq(" + element + ")").addClass("navitem"))
+    $(".nav-item a:eq(" + element + ")").addClass("navitem")
   }
 }

@@ -9,6 +9,10 @@
     background-size: cover;
   }
 
+  .list{
+    display: block;
+    color: black;
+  }
   
   body,html{
     height: 100%;
